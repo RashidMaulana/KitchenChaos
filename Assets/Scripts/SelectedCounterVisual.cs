@@ -18,11 +18,11 @@ public class SelectedCounterVisual : MonoBehaviour {
 		}
 	}
 
-	private void Show(){
+	private void Show() {
 		visualGameObject.SetActive(true);
 	}
 
-	private void Hide(){
+	private void Hide() {
 		visualGameObject.SetActive(false);
 	}
 }
