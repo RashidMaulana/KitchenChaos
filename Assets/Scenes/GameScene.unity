@@ -759,6 +759,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 952ee4bc03abe1847a61db2d63d87b53, type: 3}
+--- !u!114 &1071220991 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -6097539604341667534, guid: 952ee4bc03abe1847a61db2d63d87b53,
+    type: 3}
+  m_PrefabInstance: {fileID: 1071220990}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d53f6d63c90aee042bb296dd64c8f143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1248478656
 GameObject:
   m_ObjectHideFlags: 0
@@ -1084,6 +1096,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6097539604341667534, guid: 952ee4bc03abe1847a61db2d63d87b53,
+        type: 3}
+      propertyPath: testing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6097539604341667534, guid: 952ee4bc03abe1847a61db2d63d87b53,
+        type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 1071220991}
     - target: {fileID: 3441125166085163817, guid: 952ee4bc03abe1847a61db2d63d87b53,
         type: 3}
       propertyPath: m_IsActive
